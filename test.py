@@ -135,6 +135,7 @@ def solve3(s1, s2):
     
     if check2(map1, map2): return True
 
+
     while r < n:
 
         map2[ord(s2[r]) - 97] += 1
