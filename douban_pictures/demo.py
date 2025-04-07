@@ -22,6 +22,7 @@ def decorator_b(func):
 @decorator_a
 def f(x):
     print('Get in f')
+
     return x * 2
 
 
